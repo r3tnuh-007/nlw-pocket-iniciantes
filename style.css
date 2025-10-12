@@ -1,0 +1,49 @@
+:root {
+  /* White */
+  --white: #ffffff;
+
+  /* Accent */
+  --accent-600: #4863f7;
+  --accent-500: #7878d7;
+
+  /* Alert */
+  --alert-600: #ff5c5c;
+
+  /* Gray */
+  --gray-900: #0d0d0d;
+  --gray-800: #111111;
+  --gray-700: #1a1a1a;
+  --gray-200: #424242;
+  --gray-100: #737373;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--gray-900);
+  color: var(--white);
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding: 62px 124px;
+	gap: 32px;
+}
+
+input,
+button{
+  font-family: inherit;
+}
